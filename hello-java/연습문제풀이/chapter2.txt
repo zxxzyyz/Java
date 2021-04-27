@@ -1,0 +1,105 @@
+[2-1] 다음 표의 빈 칸에 8개의 기본형(primitive type)을 알맞은 자리에 넣으시오.
+boolean - 1 byte
+char - 2 byte
+byte - 1 byte
+short - 2byte
+int - 4 byte
+long - 8 byte
+float - 4 byte
+double - 8 byte
+
+[2-2] 주민등록번호를 숫자로 저장하고자 한다. 이 값을 저장하기 위해서는 어떤 자료형
+(data type)을 선택해야 할까? regNo라는 이름의 변수를 선언하고 자신의 주민등록번호로
+초기화 하는 한 줄의 코드를 적으시오.
+long regNo;
+regNo = 9108271895555
+
+[2-3] 다음의 문장에서 리터럴, 변수, 상수, 키워드를 적으시오.
+int i = 100;
+long l =100L;
+final float PI = 3.14f;
+literal = 100, 100L, 3.14f
+var = i, l
+const = PI
+keywords = int, long, final, float
+
+[2-4] 다음 중 기본형(primitive type)이 아닌 것은?
+a. int
+b. Byte
+c. double
+d. boolean
+Byte
+
+
+
+[2-5] 다음 문장들의 출력결과를 적으세요. 오류가 있는 문장의 경우, 괄호 안에 ‘오
+류’라고 적으시오.
+System.out.println(“1” + “2”) → ( )
+System.out.println(true + “”) → ( )
+System.out.println(‘A' + 'B') → ( )
+System.out.println('1' + 2) → ( )
+System.out.println('1' + '2') → ( )
+System.out.println('J' + “ava”) → ( )
+System.out.println(true + null) → ( )
+
+System.out.println(true + null) - error
+
+[2-6] 다음 중 키워드가 아닌 것은?(모두 고르시오)
+a. if
+b. True
+c. NULL
+d. Class
+e. System
+system
+
+[2-7] 다음 중 변수의 이름으로 사용할 수 있는 것은? (모두 고르시오)
+a. $ystem
+b. channel#5
+c. 7eleven
+d. If
+e. 자바
+f. new
+g. $MAX_NUM
+h. hello@com
+
+a, d, e, g
+
+[2-8] 참조형 변수(reference type)와 같은 크기의 기본형(primitive type)은? (모두 고
+르시오)
+a. int
+b. long
+c. short
+d. float
+e. double
+
+int and float basicall,y depends on system double and long
+
+[2-9] 다음 중 형변환을 생략할 수 있는 것은? (모두 고르시오)
+byte b = 10;
+char ch = 'A';
+int i = 100;
+long l = 1000L;
+
+a. b = (byte)i;
+b. ch = (char)b;
+c. short s = (short)ch;
+d. float f = (float)l;
+e. i = (int)ch;
+
+
+d, e
+d is loss of precision, so casting is not required
+
+[2-10] char타입의 변수에 저장될 수 있는 정수 값의 범위는? (10진수로 적으시오)
+65535
+
+
+
+
+
+
+
+
+
+
+
