@@ -93,13 +93,32 @@ d is loss of precision, so casting is not required
 [2-10] char타입의 변수에 저장될 수 있는 정수 값의 범위는? (10진수로 적으시오)
 65535
 
+[2-11] 다음중 변수를 잘못 초기화 한 것은? (모두 고르시오)
+a. byte b = 256;
+b. char c = '';
+c. char answer = 'no';
+d. float f = 3.14
+e. double d = 1.4e3f;
 
+a, b,c,de
 
+[2-12] 다음 중 main메서드의 선언부로 알맞은 것은? (모두 고르시오)
+a. public static void main(String[] args)
+b. public static void main(String args[])
+c. public static void main(String[] arv)
+d. public void static main(String[] args)
+e. static public void main(String[] args)
 
+abce
 
+[2-13] 다음 중 타입과 기본값이 잘못 연결된 것은? (모두 고르시오)
+a. boolean - false
+b. char - '\u0000'
+c. float - 0.0
+d. int - 0
+e. long - 0
+f. String - ""
 
-
-
-
-
-
+c - 0.0f
+e - 0L
+f - reference is null
