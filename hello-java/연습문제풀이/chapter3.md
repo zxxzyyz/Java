@@ -140,7 +140,42 @@ public static void main(String[] args) {
 * l=27000000000
 * result=true
 
-#### Answer
+##### Answer
 ```Java
+byte c = (byte)(a + b); //연산으로 인해 int
+ch = (char)(ch + 2); //연산으로 인해 int
+float f = 3 / 2f;
+long l = 3000 * 3000 * 3000L
+boolean result = (float)d == f2; //소수점 유효
+```
 
+#### [3-9] 다음은 문자형 변수 ch가 영문자(대문자 또는 소문자)이거나 숫자일 때만 변수 b의 값이 true가 되도록 하는 코드이다. (1)에 알맞은 코드를 넣으시오.
+```Java
+public static void main(String[] args) {
+  char ch = 'z';
+  boolean b = ( /* (1) */ );
+  System.out.println(b);
+}
+>> true
+```
+##### Answer
+```Java
+'a' <= ch && ch <= 'z' || 'A' <= ch && ch <= 'Z' || '0' <= ch && ch <= '9'
+```
+
+#### [3-10] 다음은 대문자를 소문자로 변경하는 코드인데, 문자 ch에 저장된 문자가 대문자인 경우에만 소문자로 변경한다. 문자코드는 소문자가 대문자보다 32만큼 더 크다. 예를 들어 'A‘의 코드는 6이고 ’a'의 코드는 97이다. (1)~(2)에 알맞은 코드를 넣으시오.
+```Java
+public static void main(String[] args) {
+  char ch = 'A';
+  char lowerCase = ( /* (1) */ ) ? ( /* (2) */ ) : ch;
+  System.out.println("ch:"+ch);
+  System.out.println("ch to lowerCase:"+lowerCase);
+}
+>> ch:A
+>> ch to lowercase:a
+```
+
+#### Answer
+```
+'A' <= ch && ch <= 'Z' ? (char)(ch + 32) : ch;
 ```
